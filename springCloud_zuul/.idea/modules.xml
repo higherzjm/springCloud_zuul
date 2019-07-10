@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/eurekaserver/eurekaserver.iml" filepath="$PROJECT_DIR$/eurekaserver/eurekaserver.iml" />
+      <module fileurl="file://$PROJECT_DIR$/myzuulclient/myzuulclient.iml" filepath="$PROJECT_DIR$/myzuulclient/myzuulclient.iml" />
+      <module fileurl="file://$PROJECT_DIR$/serviceprovider/serviceprovider.iml" filepath="$PROJECT_DIR$/serviceprovider/serviceprovider.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/springBoot_zuul.iml" filepath="$PROJECT_DIR$/.idea/springBoot_zuul.iml" />
+    </modules>
+  </component>
+</project>
