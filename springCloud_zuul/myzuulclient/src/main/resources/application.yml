@@ -18,7 +18,7 @@ zuul:
       serviceId: serviceprovider   #服务提供者，ribbon路由
     forwardZuul:
           path: /forwardZuul/**
-          url: forward:/forwardZuul_test1 #转发路由 URL参数需要由forward:...构成 访问方式->http://localhost:8090/forwardZuul/**
+          url: forward:/forwardZuul_test1 #跳转路由 URL参数需要由forward:...构成 访问方式->http://localhost:8090/forwardZuul/**
 
 # http://localhost:8090/routes 可进行端点访问查看映射列表
 #zuul的全套配置end-----------------------
