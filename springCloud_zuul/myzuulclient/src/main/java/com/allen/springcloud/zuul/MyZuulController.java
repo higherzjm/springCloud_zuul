@@ -38,7 +38,7 @@ public class MyZuulController {
 
     /**
      *
-       转发路由 URL参数需要由forward:...构成
+       跳转路由 URL参数需要由forward:...构成
 
        http://localhost:8090/forwardZuul/123
        该路径根据yml配置会转发到本控制器的forwardZuul_test1/**请求路径，也就是下面的forwardZuul_test1方法了
@@ -52,6 +52,6 @@ public class MyZuulController {
         SimpleDateFormat simpleDateFormat=new SimpleDateFormat("HH:mm:ss");
         String time=simpleDateFormat.format(new Date());
 
-        return time+":转发路由测试:"+name;
+        return time+":跳转路由测试:"+name;
     }
 }
